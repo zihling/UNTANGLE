@@ -5,7 +5,7 @@ my %the_circuit              = ();
 use FindBin;    # New in Perl5.004
 use Data::Dumper;
 use List::Util qw/shuffle/;
-require "/TODO/theCircuit.pm";
+require "../../theCircuit.pm";
 use File::Path qw( make_path );
 use File::Spec;
 my $dir_store="";
